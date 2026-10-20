@@ -1,0 +1,15 @@
+[project]
+name = "voice-pack-studio"
+version = "0.1.0"
+description = "Local Chinese voice pack creation with Qwen3-TTS and MLX"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "mlx-audio>=0.3.0,<0.5",
+    "gradio>=6,<7",
+    "soundfile>=0.13,<0.14",
+]
+
+[[tool.uv.index]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
